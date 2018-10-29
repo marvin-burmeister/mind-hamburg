@@ -131,9 +131,7 @@ $(window).on("load", function() {
       $("#close").on("click", function() {
         $(".album-overlay").css("display", "none");
         $(this).remove();
-        //if (!isMobileMenuOpen) {
-          $html.removeClass("no-scroll");
-        //}
+        $html.removeClass("no-scroll");
         albumOverlayVisible = false;
       });
     }
@@ -172,5 +170,13 @@ $(window).on("load", function() {
     images[index].classList.toggle("current-image");
     dots[index].classList.toggle("active");
   }
+
+  //gallery dot onclick
+  $(".dot").on("click", function() {   
+    toggleClasses(index);
+    var dot_i = $(this).attr("class").split("/\s+/");
+    index = dot_i[0].split("dot")[1]-1;
+    toggleClasses(index);
+  });
 
 });

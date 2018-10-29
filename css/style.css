@@ -7,7 +7,8 @@
 body {
 	background-color: #02070a;
 	color: #fdfef8;
-	font-size: 100%;
+	font-size: 100%;	
+	font-family: 'Georgia', serif;
 	font-family: 'David Libre';
 	width: 100%;
 	height: 100%;
@@ -37,7 +38,8 @@ header {
 }
 
 #logo {
-	font-size: 25vw;
+	font-size: 24vw;	
+	font-family: 'Garamond';
 	font-family: 'Amatic SC', cursive;
 	margin: 0 auto;
 }
@@ -354,6 +356,7 @@ h2 {
 	width: .8em;
 	height: .8em;
 	margin: 2.9em;	
+	cursor: pointer;
 }
 
 .active {
