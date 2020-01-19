@@ -20,7 +20,7 @@ header{
 	flex-direction:column;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:linear-gradient(rgba(6,20,29,.3),rgba(6,20,29,.3),#02070a),url(../img/nebel.jpg);text-align:center}
+	background-image:linear-gradient(rgba(6,20,29,.3),rgba(6,20,29,.3),rgba(6,20,29,.3),#02070a),url(../img/nebel.jpg);text-align:center}
 #logo{
 	width: 100%;
 	height: 50vh;
