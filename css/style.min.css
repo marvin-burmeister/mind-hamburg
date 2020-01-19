@@ -1,4 +1,26 @@
-*{margin:0;padding:0;scroll-behavior:smooth}body{background-color:#02070a;color:#fdfef8;font-size:100%;font-family:'kionaregular',sans serif;width:100%;height:100%}main{text-align:center;font-size:1.3em}header{width:100%;height:100vh;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background-repeat:no-repeat;background-size:cover;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(6,20,29,.3)),to(#02070a)),url(../img/nebel.jpg);background-image:linear-gradient(rgba(6,20,29,.3),#02070a),url(../img/nebel.jpg);text-align:center}
+*{margin:0;padding:0;scroll-behavior:smooth}
+body{
+	background-color:#02070a;
+	color:#fdfef8;
+	font-size:100%;
+	font-family:'kionaregular',sans serif;
+	width:100%;
+	height:100%
+	}
+main{text-align:center;font-size:1.3em}
+header{
+	width:100%;height:100vh;
+	background-position:center;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:linear-gradient(rgba(6,20,29,.3),rgba(6,20,29,.3),#02070a),url(../img/nebel.jpg);text-align:center}
 #logo{
 	width: 100%;
 	height: 50vh;
