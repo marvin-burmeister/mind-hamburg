@@ -23,8 +23,8 @@ header{
 	background-image:linear-gradient(rgba(6,20,29,.3),rgba(6,20,29,.3),rgba(6,20,29,.3),#02070a),url(../img/nebel.jpg);
 	text-align:center}
 #logo{
-	width: 100vw;
-	height:100vh;
+	width: 100%;
+	height:35vh;
 	background-position: center;
 	display: -webkit-box; 
 	display: -ms-flexbox;
