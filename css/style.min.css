@@ -24,7 +24,7 @@ header{
 	text-align:center}
 #logo{
 	width: 100vw;
-	height: 50vh;
+	height:100vh;
 	background-position: center;
 	display: -webkit-box; 
 	display: -ms-flexbox;
